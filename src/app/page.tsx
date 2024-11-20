@@ -57,7 +57,7 @@ export default function Home() {
       <nav className="w-full h-40 overflow-hidden bg-slate-100 flex md:justify-between items-center shadow-black shadow-sm md:shadow-lg mb-4">
 
         <div className="hidden md:inline-block">
-          <Link href="" className="xl:ml-5 xl:text-3xl ml-2  text-xl font-semibold capitalize tracking-wide
+          <Link href="https://github.com/mhamzazai/" className="xl:ml-5 xl:text-3xl ml-2  text-xl font-semibold capitalize tracking-wide
         hover:bg-black hover:text-white hover:scale-105 hover:px-3 hover:py-1 hover:rounded-md transition-all">Go to GitHub</Link>
         </div>
 
@@ -69,7 +69,7 @@ export default function Home() {
         </div>
 
         <div className="hidden md:inline-block">
-          <Link href="" className="text-xl xl:text-3xl mr-2 xl:mr-5 capitalize font-semibold tracking-wide
+          <Link href="https://www.npmjs.com/~mhamzazai" className="text-xl xl:text-3xl mr-2 xl:mr-5 capitalize font-semibold tracking-wide
           hover:bg-black hover:text-white hover:scale-105 hover:px-3 hover:py-1 hover:rounded-md transition-all">Got to Npm</Link>
         </div>
 
