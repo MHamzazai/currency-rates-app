@@ -105,8 +105,8 @@ export default function Home() {
           </div>
           {inputRate !== null &&
             <div className="text-center mt-3 transition-all pb-2">
-              <p className="text-2xl font-semibold">Currency <span> '{inputCurrency.toUpperCase()}' </span>
-                Rate: '{Math.round(inputRate)}'<sub>{inputCurrency.toUpperCase()}</sub>
+              <p className="text-2xl font-semibold">Currency <span> &apos;{inputCurrency.toUpperCase()}&apos; </span>
+                Rate: &apos;{Math.round(inputRate)}&apos; <sub>{inputCurrency.toUpperCase()}</sub>
               </p>
             </div>
           }

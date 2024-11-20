@@ -14,6 +14,6 @@ export async function GET() {
     }
     catch (error) {
         // if the data is not fetch
-        return NextResponse.json({ error: "Unable to fetch data!" }, { status: 500 });
+        return NextResponse.json({ error: error }, { status: 500 });
     }
 }
